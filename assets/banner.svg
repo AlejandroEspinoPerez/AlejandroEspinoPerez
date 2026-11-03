@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="t d">
+  <title id="t">Alejandro Espino Pérez — Full-Stack Developer</title>
+  <desc id="d">Laravel, Next.js, Angular, NestJS, React Native and three.js. Based in Havana, Cuba. Open to remote roles.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1022"/>
+      <stop offset="1" stop-color="#101B3A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4F8BFF"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#1F4FD8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#1F4FD8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect width="1280" height="320" rx="20"/></clipPath>
+    <style>
+      .name { font: 800 54px 'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; fill: #FFFFFF; letter-spacing: -1.2px; }
+      .role { font: 600 24px 'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; fill: url(#accent); }
+      .meta { font: 400 17px 'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif; fill: #A9B6D3; }
+      .mono { font: 500 16px 'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace; }
+      .k { fill: #C792EA; } .v { fill: #82AAFF; } .s { fill: #C3E88D; } .p { fill: #89DDFF; } .c { fill: #E6EDF7; } .b { fill: #F78C6C; }
+      .cursor { animation: blink 1.1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .floatA { animation: floatA 14s ease-in-out infinite alternate; }
+      .floatB { animation: floatB 18s ease-in-out infinite alternate; }
+      @keyframes floatA { to { transform: translate(-60px, 24px); } }
+      @keyframes floatB { to { transform: translate(70px, -20px); } }
+      @media (prefers-reduced-motion: reduce) { .cursor, .floatA, .floatB { animation: none; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1280" height="320" fill="url(#bg)"/>
+    <rect width="1280" height="320" fill="url(#grid)"/>
+    <circle class="floatA" cx="1080" cy="70" r="260" fill="url(#glowA)"/>
+    <circle class="floatB" cx="140" cy="330" r="220" fill="url(#glowB)"/>
+    <rect x="0" y="0" width="1280" height="4" fill="url(#accent)"/>
+  </g>
+
+  <!-- Identity -->
+  <text x="64" y="128" class="name">Alejandro Espino Pérez</text>
+  <text x="66" y="170" class="role">Full-Stack Developer</text>
+  <text x="66" y="214" class="meta">Laravel · Next.js · Angular · NestJS · React Native · three.js</text>
+  <g transform="translate(66 250)">
+    <circle cx="6" cy="-5" r="5" fill="#34D399"/>
+    <text x="20" y="0" class="meta">Havana, Cuba · Open to remote roles · US Eastern Time</text>
+  </g>
+
+  <!-- Code card -->
+  <g transform="translate(792 58)">
+    <rect width="424" height="204" rx="14" fill="#0B1226" fill-opacity="0.82" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <circle cx="22" cy="22" r="5.5" fill="#FF5F57"/>
+    <circle cx="40" cy="22" r="5.5" fill="#FEBC2E"/>
+    <circle cx="58" cy="22" r="5.5" fill="#28C840"/>
+    <text x="332" y="27" class="mono" fill="#5D6B8A" font-size="13">dev.ts</text>
+    <text x="24" y="66" class="mono"><tspan class="k">const</tspan><tspan class="c"> dev </tspan><tspan class="p">=</tspan><tspan class="c"> {</tspan></text>
+    <text x="48" y="92" class="mono"><tspan class="v">role</tspan><tspan class="p">: </tspan><tspan class="s">'Full-Stack'</tspan><tspan class="c">,</tspan></text>
+    <text x="48" y="118" class="mono"><tspan class="v">stack</tspan><tspan class="p">: </tspan><tspan class="c">[</tspan><tspan class="s">'Laravel'</tspan><tspan class="c">, </tspan><tspan class="s">'Next.js'</tspan><tspan class="c">],</tspan></text>
+    <text x="48" y="144" class="mono"><tspan class="v">shipsToProd</tspan><tspan class="p">: </tspan><tspan class="b">true</tspan><tspan class="c">,</tspan></text>
+    <text x="24" y="170" class="mono"><tspan class="c">};</tspan></text>
+    <rect class="cursor" x="50" y="156" width="9" height="18" fill="#4F8BFF"/>
+  </g>
+</svg>
